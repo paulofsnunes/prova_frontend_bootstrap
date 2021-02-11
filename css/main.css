@@ -1,13 +1,22 @@
+@import url(./bootstrap.min.css);
+@import url(./custom.css);
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: serif;
 }
 
-.navbar {
-    background-color: white;
+.navbar-brand {
+    font-size: 20px;
 }
 
 .nav-link {
     color: rgb(44, 44, 151) !important;
+    font-size: 14px;
 }
 
 .nav-link::after {
@@ -40,6 +49,7 @@ footer {
     font-size: 1.8rem;
     margin-top: 5rem;
     margin-left: 15rem;
+    color: white;
 }
 
 @media (max-width: 1115px){
@@ -60,7 +70,11 @@ footer {
     }
 }
 
-#header navbar-collapse {
+#header {
+    width: 100%;
+}
+
+#header .navbar-collapse {
     width: auto;
 }
 
@@ -81,4 +95,40 @@ footer {
     #header .navbar-collapse {
         width: 100%;
     }
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 30px;
+    height: 30px;
+}
+
+.testimonials {
+    margin: 70px;
+}
+
+footer {
+    color: white;
+    margin-top: 150px;
+}
+
+.service {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    font-size: small
+}
+
+.contact {
+    margin-top: 2rem;
+    font-size: small
+}
+
+.social {
+    margin-top: 2rem;
+    font-size: small;
+}
+
+.navbar-brand {
+    background-color: #E2CC6C;
+    color: white !important;
 }
