@@ -1,47 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Tomas Zycki</title>
 </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">TomasZycki.</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">PRACTICE AREAS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">EN</a>
-                    </li>
-                </ul>
+        <div id="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light container-sm">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">TomasZycki.</a>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-taggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">PRACTICE AREAS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">CONTACT</a>
+                                </li>
+                                <li class="nav-item nav-link-red">
+                                    <a class="nav-link nav-link-red" aria-current="page" href="#">EN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
-        </nav>
         <div class="card bg-dark text-black">
-            <img src="img/paisagem.jpg" class="img-fluid" alt="...">
+            <img src="img/paisagem.jpg" class="img-fluid" alt="arranha-céu">
             <div class="card-img-overlay">
               <p class="card-text">We've provided legal help <br> since 1979 in Southeastern <br> MI & Metro Detroid</p>
             </div>
           </div>
     
         <section id="represent">
-            <div class="container-fluid text-center margin represent">
+            <div class="container-fluid container-sm text-center margin represent">
                 <h3 class="margin">Proudly Represent Clients</h3>
                 <div class="container">
                     <div class="row">
@@ -61,36 +77,44 @@
                 </div>
             </div>
         </section>
-        <section id="testimonials" class="text-center">
+        <section id="testimonials" class="container-sm text-center">
             <h3 class="margin">Testimonials</h3>
-            <div id="carouselExampleControls" class="carousel slide text-center" data-bs-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide text-center" data-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ligula orci, placerat a ornare eget, consequat at libero. Pellentesque sollicitudin est a dictum vehicula. Nullam ultrices augue ac sem elementum, id condimentum turpis cursus. Curabitur a diam dolor. Phasellus auctor tincidunt fringilla. Suspendisse id mattis velit. Duis rutrum turpis ante, sit amet lobortis turpis interdum non. Aliquam ut sapien id ligula pellentesque cursus. Proin nibh velit, sagittis fermentum facilisis interdum, feugiat eget nibh. Donec non nibh at est aliquet euismod. Vivamus sed convallis orci. Proin posuere justo purus, non finibus purus semper at."<br>Carol, August 30, 2015</em></p>
-                  </div>
-                  <div class="carousel-item">
-                    <p><em>"Suspendisse dictum nisi nec ante venenatis commodo. Nunc vitae nisi justo. Suspendisse ultrices ante pharetra, dictum risus vitae, maximus odio. Fusce ullamcorper turpis justo, a venenatis lorem commodo et. Morbi commodo erat ac risus faucibus, ac euismod mauris lacinia. Duis sit amet quam laoreet, pharetra lacus sit amet, iaculis mi. Pellentesque sed nunc sed lorem facilisis venenatis vitae vel augue. Cras vitae arcu ipsum. Aliquam ullamcorper massa ac fringilla pellentesque. Aliquam pharetra rutrum ipsum eget tincidunt. Ut sagittis, enim a rutrum molestie, lectus augue pharetra quam, sit amet dapibus orci erat quis nisl. Sed vel arcu a nisl aliquet ullamcorper."<br>Phillip, June 15, 2018</em></p>
-                  </div>
-                  <div class="carousel-item">
-                    <p><em>"Vestibulum iaculis dolor id eros finibus maximus. Vivamus finibus rhoncus felis ut tincidunt. Aliquam ultrices, libero sed auctor eleifend, ligula leo dignissim magna, a bibendum elit eros at nulla. Proin luctus nunc a imperdiet tempus. Praesent maximus eros eu mauris suscipit viverra. Vestibulum nec lacus vitae enim condimentum interdum malesuada ut leo. Nam fermentum malesuada ornare. Vestibulum nulla nibh, pellentesque vel odio rhoncus, volutpat mollis tellus. Mauris est purus, varius a lorem at, luctus posuere nisl."<br>Michael, January 05, 2021</em></p>
-                  </div>
+                    <div class="carousel-item active">
+                        <p><em>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ligula orci, placerat a ornare eget, consequat at libero. Pellentesque sollicitudin est a dictum vehicula. Nullam ultrices augue ac sem elementum, id condimentum turpis cursus. Curabitur a diam dolor. Phasellus auctor tincidunt fringilla. Suspendisse id mattis velit. Duis rutrum turpis ante, sit amet lobortis turpis interdum non. Aliquam ut sapien id ligula pellentesque cursus. Proin nibh velit, sagittis fermentum facilisis interdum, feugiat eget nibh. Donec non nibh at est aliquet euismod. Vivamus sed convallis orci. Proin posuere justo purus, non finibus purus semper at."<br>- Carol, August 30, 2015</em></p>
+                    </div>
+                    <div class="carousel-item">
+                        <p><em>"Suspendisse dictum nisi nec ante venenatis commodo. Nunc vitae nisi justo. Suspendisse ultrices ante pharetra, dictum risus vitae, maximus odio. Fusce ullamcorper turpis justo, a venenatis lorem commodo et. Morbi commodo erat ac risus faucibus, ac euismod mauris lacinia. Duis sit amet quam laoreet, pharetra lacus sit amet, iaculis mi. Pellentesque sed nunc sed lorem facilisis venenatis vitae vel augue. Cras vitae arcu ipsum. Aliquam ullamcorper massa ac fringilla pellentesque. Aliquam pharetra rutrum ipsum eget tincidunt. Ut sagittis, enim a rutrum molestie, lectus augue pharetra quam, sit amet dapibus orci erat quis nisl. Sed vel arcu a nisl aliquet ullamcorper."<br>- Phillip, June 15, 2018</em></p>
+                    </div>
+                    <div class="carousel-item">
+                        <p><em>"Vestibulum iaculis dolor id eros finibus maximus. Vivamus finibus rhoncus felis ut tincidunt. Aliquam ultrices, libero sed auctor eleifend, ligula leo dignissim magna, a bibendum elit eros at nulla. Proin luctus nunc a imperdiet tempus. Praesent maximus eros eu mauris suscipit viverra. Vestibulum nec lacus vitae enim condimentum interdum malesuada ut leo. Nam fermentum malesuada ornare. Vestibulum nulla nibh, pellentesque vel odio rhoncus, volutpat mollis tellus. Mauris est purus, varius a lorem at, luctus posuere nisl."<br>- Michael, January 05, 2021</em></p>
+                    </div>
                 </div>
-                <a class="carousel-control-prev" role="button" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </a>
-              </div>
+                <div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                </div>
+            </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
         </section>
 
-        <footer>
+        <footer class="container-sm">
             <div class="container">
                 <div class="row">
                   <div class="col-sm">
-                    <ul>
+                    <ul class="list-group">
                         <li>
                             <h5>Contact Us</h5>
                         </li>
@@ -106,7 +130,7 @@
                     </ul>
                   </div>
                   <div class="col-sm">
-                    <ul>
+                    <ul class="list-group">
                         <li>
                             <h5>Service Areas</h5>
                         </li>
