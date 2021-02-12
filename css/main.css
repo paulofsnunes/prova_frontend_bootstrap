@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    font-family: serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-brand {
@@ -15,24 +15,25 @@ body {
 }
 
 .nav-link {
-    color: rgb(44, 44, 151) !important;
+    color: #425846 !important;
     font-size: 14px;
 }
 
 .nav-link::after {
-    content: "      |";
+    content: "|";
+    padding-left: 10px;
 }
 
-.nav-link-red {
-    color:#b34232 !important; 
+.nav-link {
+    margin: 5px !important;
 }
 
-.nav-link-red::after {
-   content: "";
+.nav-item {
+    margin: 0;
 }
 
-.represent {
-    background-color: #f2f2f2;
+.services {
+    background-color: #F9DF71;
 }
 
 footer {
