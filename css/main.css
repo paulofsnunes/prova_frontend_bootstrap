@@ -15,7 +15,7 @@ body {
 }
 
 .nav-link {
-    color: #425846 !important;
+    color: #605759 !important;
     font-size: 14px;
 }
 
@@ -32,13 +32,52 @@ body {
     margin: 0;
 }
 
+.last-item::after {
+    content: "";
+}
+
 .services {
-    background-color: #F9DF71;
+    font-weight: lighter;
+    background-color: #E4F3E7;
+    color: #605759;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+}
+
+.carousel-control-prev {
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.carousel-control-next {
+    margin-top: 60px;
+    margin-right: 70px;
+}
+
+.photo-clients {
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 2px solid #E2CC6C;
+}
+
+.line::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #E2CC6C;
+    margin: 14px auto 10px auto;
 }
 
 footer {
-    background-color: #1b3146;
-    text-decoration-color: white;
+    background-color: #3B6272;
+    color: white;
+    margin-top: 100px;
 }
 
 .card {
@@ -49,8 +88,17 @@ footer {
 .card-text {
     font-size: 1.8rem;
     margin-top: 5rem;
-    margin-left: 15rem;
+    margin-left: 7rem;
     color: white;
+}
+
+.card-text::after {
+    content: "";
+    display: block;
+    width: 200px;
+    margin-top: 5px;
+    height: 3px;
+    background: #E2CC6C;
 }
 
 @media (max-width: 1115px){
@@ -89,7 +137,8 @@ footer {
 }
 
 #header .nav-link:hover {
-    border-bottom: solid 4px black;
+    border-bottom: solid 2px #E2CC6C;
+    margin-bottom: 0px;
 }
 
 @media (max-width: 991.98px) {
@@ -104,32 +153,68 @@ footer {
 }
 
 .testimonials {
-    margin: 70px;
-}
-
-footer {
-    color: white;
-    margin-top: 150px;
+    font-weight: lighter;
+    color: #605759;
 }
 
 .service {
     margin-left: 10rem;
     margin-right: 10rem;
     margin-top: 2rem;
-    font-size: small
+    font-size: small;
 }
 
 .contact {
     margin-top: 2rem;
-    font-size: small
+    font-size: small;
 }
 
 .social {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: small;
 }
 
 .navbar-brand {
     background-color: #E2CC6C;
     color: white !important;
+}
+
+.p-title {
+    color: #8BB6C4;
+    font-weight: normal;
+    text-align: left;
+}
+
+.text-wrap {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.list-group {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #E2CC6C;
+}
+
+.link-alert {
+    margin: 25px;
+    font-size: 25px;
+    color: #e2cc6c;
+}
+
+.link-container {
+    margin: 30px -36px;
+}
+
+.row {
+    margin-left: 50px;
+    margin-top: 10px;
 }
